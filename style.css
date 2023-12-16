@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #25252b;
+  background: #19191e;
 }
 
 @property --a {
@@ -64,7 +64,7 @@ body {
   content: '';
   position: absolute;
   inset: 4px;
-  background: #2d2d39;
+  background: #161618;
   border-radius: 15px;
   border: 8px solid #25252b;
 }
@@ -98,13 +98,15 @@ body {
   flex-direction: column;
   gap: 20px;
   width: 70%;
-  transform: translateY(115px);
+  transform: translateY(126px);
   transition: 0.5s;
 
 }
-.box:hover .loginBx{
+
+.box:hover .loginBx {
   transform: translateY(0px);
 }
+
 .loginBx h2 {
   text-transform: uppercase;
   font-weight: 600;
@@ -147,6 +149,7 @@ body {
 }
 
 .group {
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
